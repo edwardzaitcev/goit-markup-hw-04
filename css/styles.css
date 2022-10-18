@@ -229,6 +229,19 @@ img {
   background: tomato;
   border-radius: 50%;
   display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-soc-icon {
+  fill: #afb1b8;
+}
+
+.team-soc-link:hover {
+  background-color: #2196f3;
+}
+.team-soc-link:hover .team-soc-icon {
+  background-color: #ffffff;
 }
 
 .team-worker {
@@ -266,7 +279,9 @@ img {
   height: 100%;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer {
