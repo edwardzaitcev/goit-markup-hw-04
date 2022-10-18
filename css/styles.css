@@ -116,10 +116,17 @@ img {
   background: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url(../images/heroimg.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/heroimg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  width: 1600px;
+  height: 600px;
+  margin: 0 auto;
 }
 .hero-title {
   font-weight: 900;
@@ -209,6 +216,24 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
+.team-soc-list {
+  justify-content: center;
+  gap: 10px;
+}
+
+.team-soc-item {
+  width: 44px;
+  height: 44px;
+}
+.team-soc-link {
+  width: 100%;
+  height: 100%;
+  background: tomato;
+  border-radius: 50%;
+  display: block;
+}
+
 .team-worker {
   font-weight: 500;
   font-size: 16px;
@@ -223,11 +248,30 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 16px;
 }
 .team-worker-profession {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+.test-list {
+  display: flex;
+  gap: 30px;
+}
+
+.test-item {
+  width: calc(100% - 150px / 6);
+  height: 92px;
+}
+.test-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: block;
+}
+
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
@@ -317,7 +361,7 @@ img {
   padding-top: 6px;
   padding-bottom: 6px;
 }
-.hero-btn:focus. {
+.hero-btn:focus {
   color: #212121;
 }
 .hero-btn:hover {
