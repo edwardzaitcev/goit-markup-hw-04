@@ -241,7 +241,7 @@ img {
   background-color: #2196f3;
 }
 .team-soc-link:hover .team-soc-icon {
-  background-color: #ffffff;
+  fill: #ffffff;
 }
 
 .team-worker {
