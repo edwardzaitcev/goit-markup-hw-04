@@ -282,6 +282,17 @@ img {
   align-items: center;
   justify-content: center;
 }
+.container-client {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.client {
+  background-color: #ffffff;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .footer {
   background-color: #2f303a;
