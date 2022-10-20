@@ -169,11 +169,14 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 4px;
-  color: #F5F4FA;
+  margin-bottom: 30px;
+  background-color: #F5F4FA;
+
   
 }
 .benefits-soc-icon {
- 
+  
+  
 }
 /* 
 .team-soc-list {
@@ -317,6 +320,7 @@ img {
 .test-list {
   display: flex;
   gap: 30px;
+  
 }
 
 .test-item {
