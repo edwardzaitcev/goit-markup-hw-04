@@ -379,7 +379,8 @@ img {
   display: flex;
   align-items: baseline;
 }
-
+.footer-container {
+}
 .footer-soc-title {
   font-weight: 700;
   font-size: 14px;
