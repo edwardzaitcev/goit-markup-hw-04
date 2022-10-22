@@ -100,6 +100,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  display: flex;
+  align-items: center;
 }
 .header-mail-item {
   fill: currentColor;
@@ -115,6 +117,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  display: flex;
+  align-items: center;
 }
 .hero {
   background: #2f303a;
@@ -167,7 +171,6 @@ img {
 }
 
 .benefits-soc-item {
-  width: 270px;
   height: 120px;
   display: block;
   display: flex;
@@ -256,9 +259,13 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.team-soc-icon {
   fill: #afb1b8;
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: #2196f3;
+  fill: #ffffff;
 }
 
 .team-soc-link:hover {
@@ -376,6 +383,8 @@ img {
 }
 
 .footer-box {
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-soc-title {
@@ -418,6 +427,11 @@ img {
   align-items: center;
   justify-content: center;
 }
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: #2196f3;
+  fill: #ffffff;
+}
 
 /*portfol*/
 
@@ -437,8 +451,7 @@ img {
   padding-right: 15px;
   margin: 0 auto;
 }
-/* .portfolio-filter {
-} */
+
 .portfolio-btn {
   font-family: inherit;
   font-weight: 500;
@@ -451,8 +464,7 @@ img {
   cursor: pointer;
   background: #f5f4fa;
   border-radius: 4px;
-  box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%),
-    0px 2px 2px rgb(0 0 0 / 12%);
+
   border: none;
   padding-left: 22px;
   padding-right: 22px;
@@ -470,6 +482,14 @@ img {
 .portfolio-btn:hover {
   color: #ffffff;
   background-color: #2196f3;
+}
+.portfolio-filter {
+}
+.portfolio-filter:hover,
+.portfolio-filter:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 /*.img {
@@ -509,4 +529,13 @@ img {
 .card-list {
   display: flex;
   flex-wrap: wrap;
+}
+.card {
+  display: block;
+}
+
+.card:hover,
+.card:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
